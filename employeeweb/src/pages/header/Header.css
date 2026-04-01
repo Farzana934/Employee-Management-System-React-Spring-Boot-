@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #343a40;
+
+}
+.navbar.navbar-brand{
+    color: #fff;
+    /* font-size: 24px;
+    font-weight: bold; */
+}
+.navbar .nav-link{
+    color: #fff;
+    text-decoration: none !important; /*Remove underline from links*/
+    margin-right: 20px; /* Add spacing between links */
+}
+
+
+/*add media query for responsiveness*/
+@media (max-width: 768px) {
+    .navbar .nav-link {
+        margin-right: 10px; /* Reduce spacing on smaller screens */
+    }
+}
