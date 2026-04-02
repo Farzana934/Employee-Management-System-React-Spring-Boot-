@@ -195,7 +195,7 @@ http://localhost:3000
 ## 🖼️ Screenshots
 
 ### 📊 Dashboard
-![Dashboard](https://user-images.githubusercontent.com/xxxx/dashboard.png)
+![Dashboard]([https://user-images.githubusercontent.com/xxxx/dashboard.png](https://github.com/Farzana934/Employee-Management-System-React-Spring-Boot-/blob/main/Dashboard.png))
 
 ### ➕ Add Employee
 ![Add Employee](https://user-images.githubusercontent.com/xxxx/add.png)
