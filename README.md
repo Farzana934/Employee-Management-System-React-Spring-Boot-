@@ -192,4 +192,15 @@ http://localhost:3000
 * 🌐 Deployment (AWS / Render)
 
 ---
+
+## 🖼️ Screenshots
+
+### 📊 Dashboard
+![Dashboard](images/Dashboard.png)
+
+### ➕ Add Employee
+![Add Employee](images/NewEmployee.png)
+
+### ✏️ Update Employee
+![Update Employee](images/UpdateEmployee.png)
 ⭐ If you like this project, give it a star on GitHub!
