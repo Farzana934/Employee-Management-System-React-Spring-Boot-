@@ -192,15 +192,4 @@ http://localhost:3000
 * 🌐 Deployment (AWS / Render)
 
 ---
-## 🖼️ Screenshots
-
-### 📊 Dashboard
-![Dashboard]([https://user-images.githubusercontent.com/xxxx/dashboard.png](https://github.com/Farzana934/Employee-Management-System-React-Spring-Boot-/blob/main/Dashboard.png))
-
-### ➕ Add Employee
-![Add Employee](https://user-images.githubusercontent.com/xxxx/add.png)
-
-### ✏️ Update Employee
-![Update Employee](https://user-images.githubusercontent.com/xxxx/update.png)
-
 ⭐ If you like this project, give it a star on GitHub!
