@@ -31,7 +31,7 @@ A full-stack **Employee Management System** built using **React.js (Frontend)** 
 
 ### 🔹 Database
 
-* MySQL
+* PostgreSQL
 
 ---
 
@@ -103,18 +103,18 @@ cd employee-management
 
 ## ▶️ 2. Backend Setup (Spring Boot)
 
-### 🔧 Configure Database
+### 🔧 Configure PostgreSQL Database
 
 Edit `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
-spring.datasource.username=root
+spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
+spring.datasource.username=postgres
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
 
 ---
@@ -177,10 +177,26 @@ http://localhost:3000
 
 ## ⚠️ Important Notes
 
-* Make sure MySQL is running before starting backend
+* Make sure PostgreSQL is running before starting backend
 * Update DB credentials in `application.properties`
 * Backend must run before frontend
 * Ensure CORS is enabled in Spring Boot
+
+---
+
+## 🖼️ Screenshots
+
+### 📊 Dashboard
+
+![Dashboard](images/Dashboard.png)
+
+### ➕ Add Employee
+
+![Add Employee](images/NewEmployee.png)
+
+### ✏️ Update Employee
+
+![Update Employee](images/UpdateEmployee.png)
 
 ---
 
@@ -193,14 +209,4 @@ http://localhost:3000
 
 ---
 
-## 🖼️ Screenshots
-
-### 📊 Dashboard
-![Dashboard](images/Dashboard.png)
-
-### ➕ Add Employee
-![Add Employee](images/NewEmployee.png)
-
-### ✏️ Update Employee
-![Update Employee](images/UpdateEmployee.png)
 ⭐ If you like this project, give it a star on GitHub!
